@@ -1,1 +1,1 @@
-(1)create a script that switches the current user to betty, (2)
+(1)create a script that switches the current user to betty, (2)create a script that switches the user betty to johnson, (3)create a script that switches the user johnson to masino, (4)create a script that switches the user masino to alex, (5)create a script that switches the user alex to chisom, (6)create a script that switches the user chisom to obum, (7)create a script that switches the user obum to mom, (8)create a script that switches the user mom to dad
