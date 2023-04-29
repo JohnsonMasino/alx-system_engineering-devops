@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Kills the 'To infinity and beyond' program using 'sigkill'
+
+pkill -9 "bash ./7-highlander" -f
