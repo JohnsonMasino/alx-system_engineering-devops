@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# writes the mesaage "I am alive" to "/tmp/my_process"
+
+
+echo "" > /tmp/my_process
+
+while true;
+do
+  echo "I am alive!" >> /tmp/my_process
+done
