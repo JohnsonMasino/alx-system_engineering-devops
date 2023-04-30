@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # prints the message; 'To infinity and beyond'
 # continuously unless it is killed.
-# I am invincible!!! when receiving a SIGTERM
+# With a sleep 2 in between each iteration
+# I am invincible!!! when receiving a SIGTERM signal
 
 while true;
 do
