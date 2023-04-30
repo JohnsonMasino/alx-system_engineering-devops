@@ -2,9 +2,8 @@
 # writes the mesaage "I am alive" to "/tmp/my_process"
 
 
-echo "" > /tmp/my_process
-
-while true;
+while true
 do
-  echo "I am alive!" >> /tmp/my_process
+    sudo bash -c 'echo "I am alive!" >> /tmp/my_process'
+    sleep 2
 done
