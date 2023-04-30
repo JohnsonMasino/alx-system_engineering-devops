@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Displaying 'Best School' 10 times using while loop.
 
-counter = 0
+counter=0
 
 while [ $counter -lt 10 ]
 do
