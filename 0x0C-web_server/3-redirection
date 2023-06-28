@@ -1,21 +1,25 @@
 #!/usr/bin/env bash
 # Configure your Nginx server so that /redirect_me is redirecting to another page.
 # The redirection is configured as a "301 Moved Permanently"
+# Update the system
+sudo apt update
+sudo apt upgrade -y
 
-apt-get update
-apt-get install -y nginx
+# Install Nginx
+sudo apt install nginx -y
 
-mkdir /etc/nginx/html
-touch /etc/nginx/html/index.html
-echo "Hello Word!" > /etc/nginx/html/index.html
-printf %s "server {
+# Configure the redirection
+sudo tee /etc/nginx/conf.d/redirect.conf > /dev/null <<EOT
+server {
     listen 80;
-    listen [::]:80 default_server;
-    root   /etc/nginx/html;
-    index  index.html index.htm;
-    location /redirect_me {
-        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
-    }
-}" > /etc/nginx/sites-available/default
+    ubuntu masino.tech;
 
-service nginx restart
+    location /redirect_me {
+        return 301 https://github.com/JohnsonMasino;
+    }
+}
+EOT
+
+# Restart Nginx
+sudo systemctl restart nginx
+
