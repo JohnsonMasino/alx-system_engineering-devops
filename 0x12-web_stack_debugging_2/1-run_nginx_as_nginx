@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Run nginx as nginx user on port 8080 without uninstalling apache2
+
+sed -i '1 i\user nginx;' /etc/nginx/nginx.conf
+chmod 644 /etc/nginx/nginx.conf
+sed -i "s/80/8080/g" /etc/nginx/sites-available/default
+
+pkill apache2
+su nginx -s /bin/bash -c '/etc/init.d/nginx restart'
