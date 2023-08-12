@@ -1,6 +1,6 @@
 ![image](https://github.com/JohnsonMasino/alx-system_engineering-devops/assets/117756339/f7ead5b8-9f8d-490a-ac64-445f23076a6c)
 
-# Ninaz_Hairline API project outage occurence report.
+# Ninaz_Hairline API system crash occurence report.
 
 ### By the Ninaz_Hairline API project team.
 
