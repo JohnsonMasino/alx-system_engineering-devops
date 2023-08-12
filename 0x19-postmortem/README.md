@@ -28,6 +28,6 @@ The following measures helped fix the system crash:
 3. Setting up prompt mail forwarding to users upon noticing abnormal behaviour of the system.
 4. Develop better mechanism for quickly delivering status notifications during incidents.
 
-### Ninaz_Hairline will continuously improve its technology and functioning to ensure that users get the best hair services available online through its collaboration with third party hair companies world wide. We once again apologise for the halt in transactions caused by the system crash. We thank you for your steady patronage and support.<br>
+Ninaz_Hairline will continuously improve its technology and functioning to ensure that users get the best hair services available online through its collaboration with third party hair companies world wide. We once again apologise for the halt in transactions caused by the system crash. We thank you for your steady patronage and support.<br>
 
-### Sincerely, The Ninaz_Hairline API Project Team.
+Sincerely, The Ninaz_Hairline API Project Team.
