@@ -1,7 +1,7 @@
 server {
     listen 80 default_server;
     listen [::]:80 default_server;
-    add_header X-Served-By 197148-web-01;
+    add_header X-Served-By 217848-web-01;
     root   /var/www/html;
     index  index.html index.htm;
     location /hbnb_static {
