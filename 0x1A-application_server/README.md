@@ -1,4 +1,4 @@
-#. 0x1A. Application server
+# 0x1A. Application server
 
 >>REQUIREMENTS
 0. A README.md file, at the root of the folder of the project, is mandatory
