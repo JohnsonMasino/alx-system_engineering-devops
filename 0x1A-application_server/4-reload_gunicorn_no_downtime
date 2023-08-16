@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+PID_FILE=/var/run/
+
+# Check if the Gunicorn process is running
+if [ -f "$PID_FILE" ]; then
+    # Get the process ID from the PID file
+    PID=$(cat "$PID_FILE")
+
+    # Reload Gunicorn gracefully
+    echo "Reloading Gunicorn..."
+    kill -HUP "$PID"
+    echo "Gunicorn reloaded."
+else
+    echo "Gunicorn is not running."
+fi
